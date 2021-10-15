@@ -1,0 +1,124 @@
+/* font sizes=10-12-14-16-18-20-24-30-36-44-52-62-74-86-98 */
+
+
+/* font-family= times new roman 
+orange-font-color= #ff6b00
+    main font color= rgb(51,51,51)
+    pricing font color = #666666
+
+*/
+
+
+/* spacing system= 2-4-8-12-16-24-32-48-64-80-96-128 */
+
+
+/* line height = 1 default */
+
+
+/* primary colors
+orange-backgroud for tags = #FF6600
+lite-orange-background = #fff1E6
+body-color = #f2f2f2
+sections background= #ffffff
+
+*/
+
+
+/* tints */
+
+
+/* shades */
+
+
+/* greys */
+
+html {
+    font-size: 62.5%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: #f2f2f2;
+}
+
+.main_container {
+    border: 2px solid black;
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.main {
+    /* height: 100vh; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-row: 1fr 1fr; */
+    /* display: flex; */
+}
+
+.main_section {
+    margin: 0.5rem;
+    background-color: #9999;
+    border-radius: 0.7rem;
+    padding: 2rem 1rem;
+    /* width: 35vw; */
+    /* display: grid; */
+    /* grid-template-columns: 1fr 1fr; */
+}
+
+.heading_2 {
+    font-size: 2.4rem;
+    padding: 1rem 0.5rem;
+    color: #333333;
+}
+
+.main_section_wrapper {
+    /* border: 2px solid blue; */
+    display: flex;
+    /* gap: 0.5rem; */
+    justify-content: space-between;
+}
+
+.main_section_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main_section_imgContainer {
+    max-width: 17.3rem;
+}
+
+.main_section_img {
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.main_section_price p {
+    font-size: 1.6rem;
+    padding: 0.8rem 0rem 0.5rem 0rem;
+    font-weight: 600;
+    color: #666666;
+}
+
+
+/* *************************** */
+
+.card {
+    max-width: 23rem;
+    /* max-height: 23rem; */
+}
+
+.card_section_imgCont {
+    max-height: 23rem;
+}
+
+.card_section_imgCont img {
+    width: 100%;
+    height: 100%;
+}
