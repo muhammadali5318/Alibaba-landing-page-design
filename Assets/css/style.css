@@ -51,7 +51,7 @@ body {
 /* ***********************Nav Bars *********************** */
 
 .main_nav {
-    background-color: blanchedalmond;
+    background-color: white;
     width: 100vw;
     /* display: flex; */
     /* flex-direction: column; */
@@ -66,7 +66,7 @@ body {
     background-color: white;
     margin: 0 auto;
     max-width: 150rem;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     padding: 1rem 2rem;
 }
 
@@ -157,10 +157,201 @@ body {
 }
 
 
+/* *********************second Nav********************* */
+
+.second_nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    margin: 0 auto;
+    max-width: 150rem;
+    /* border: 2px solid black; */
+    padding: 1rem 2rem;
+    /* border-top: 2px solid #717171; */
+}
+
+.second_nav a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: #333333;
+}
+
+.nav_elements ul li {
+    list-style: none;
+    /* gap: 3rem; */
+    padding: 1rem 2rem;
+}
+
+.nav_elements ul li a {
+    /* list-style: none; */
+    /* gap: 3rem; */
+    /* padding: 1rem 2rem; */
+    display: flex;
+    align-items: center;
+}
+
+.nav_elements ul {
+    /* list-style: none; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.second_nav_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* align-self: start; */
+}
+
+.nav_element2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+    /* align-self: start; */
+}
+
+.categories_btn {
+    display: flex;
+    padding-right: 1rem;
+    border-right: 2px solid #d6d6d6;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+.btn_el {
+    padding: 0rem 0.3rem;
+    font-size: 1.4rem;
+}
+
+.el_icon {
+    /* font-size: 5rem; */
+    font-size: 1.4rem;
+    color: #717171;
+    padding-left: 0.5rem;
+}
+
+.icon_flex {
+    display: flex;
+    align-items: center;
+}
+
+.china_flag {
+    max-width: 1.7rem;
+    padding-left: 0.3rem;
+}
+
+.border_class {
+    padding-right: 2rem;
+    border-right: 2px solid #d6d6d6;
+}
+
+.hr1 {
+    border-top: 1px solid #d6d6d6;
+}
+
+
+/* ************************header********************************** */
+
+.header_categoreis {
+    width: 100%;
+    height: 100%;
+    border-radius: 0.5rem;
+    background-color: white;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-gap: 1rem;
+    padding: 0.5rem;
+    padding-right: 1.3rem;
+    margin-top: 4rem;
+    /* border-radius: 1rem; */
+}
+
+.el_1 {
+    grid-row: 1/3;
+    /* margin: 5rem 5rem; */
+    margin-bottom: 1.6rem;
+}
+
+.categories_list li {
+    list-style: none;
+    /* padding: 1rem 0.8rem 1rem 0.8rem; */
+    padding: 1.6rem 0.6rem 0rem 1.6rem;
+    margin: 1rem 0rem;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.categories_list li a {
+    /* list-style: none; */
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #333333;
+}
+
+.categories_heading {
+    font-size: 1.6rem;
+    padding: 1.6rem 0.6rem 0rem 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* 
+.categories_ad {
+    height: 70%;
+} */
+
+.categories_ad img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.categories_icon_wrapper {
+    background-color: white;
+    display: flex;
+    /* gap: 5rem; */
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.categories_icons {
+    height: 15rem;
+    font-size: 1.3rem;
+    color: #333333;
+}
+
+.categories_icons p {
+    text-align: center;
+}
+
+.categories_img_container {
+    max-width: 10rem;
+    /* height: 11rem; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.categories_img {
+    /* max-width: 6rem; */
+    width: 100%;
+}
+
+
 /* ****************************cards************************ */
 
 .main_container {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     max-width: 120rem;
     margin: 0 auto;
 }
@@ -314,3 +505,6 @@ body {
     margin: 0.5rem 0rem;
     /* display: inline; */
 }
+
+
+/* **************************************************8test */
