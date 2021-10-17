@@ -134,8 +134,151 @@ body {
     position: relative;
 }
 
+.logo_info:hover {
+    color: #FF6B00;
+}
+
+.Message:hover .sign_in_dropdown {
+    display: block;
+    /* position: relative; */
+}
+
+.Message:hover a {
+    /* display: block; */
+    color: #FF6B00;
+    /* position: relative; */
+}
+
+.order:hover .sign_in_dropdown {
+    display: block;
+    /* position: relative; */
+}
+
+.order:hover a {
+    color: #FF6B00;
+    /* position: relative; */
+}
+
+.cart:hover .sign_in_dropdown {
+    display: block;
+    /* position: relative; */
+}
+
+.cart:hover a {
+    color: #FF6B00;
+    /* position: relative; */
+}
+
+.nav_elements_hover:hover .hover_el {
+    color: #FF6B00;
+}
+
+.nav_elements_hover:hover .el_icon {
+    /* color: #FF6B00; */
+    display: none;
+}
+
+.el_icon_hover {
+    display: none;
+    font-size: 1.4rem;
+    /* color: #717171; */
+    padding-left: 0.5rem;
+}
+
+.nav_elements_hover:hover .el_icon_hover {
+    /* color: #FF6B00; */
+    display: block;
+}
+
+.second_nav a:hover {
+    color: #FF6B00;
+}
+
 
 /* *******************first dropdown************ */
+
+.sign_in_dropdown {
+    background-color: white;
+    position: absolute;
+    top: 6rem;
+    right: 0;
+    width: 30rem;
+    height: 35rem;
+    padding: 1rem 2rem;
+    z-index: 1000;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+.dropdown_heading {
+    font-size: 1.4rem;
+    color: #333333;
+}
+
+.sign_in_dropdown ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    list-style: none;
+}
+
+.sign_in_dropdown ul li {
+    padding: 1rem 2rem;
+}
+
+.sign_in_dropdown a {
+    text-decoration: none;
+    color: #333333;
+}
+
+.sign_in_li {
+    background-color: #FF6B00;
+    width: 100%;
+    text-align: center;
+    border-radius: 2px;
+    font-size: 1.4rem;
+    margin-top: 1rem;
+}
+
+.sign_in_li a {
+    color: white;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.join_free_li {
+    font-size: 1.4rem;
+}
+
+.dropdown_logo {
+    font-size: 2.3rem;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    color: #999;
+    padding: 1rem 0rem;
+}
+
+.dropdown_checkbox p {
+    color: #333333;
+}
+
+.sign_in:hover .sign_in_dropdown {
+    display: block;
+}
+
+
+/* *******************first dropdown end************ */
+
+
+/* *******************second dropdown end************ */
+
+
+/* *******************second dropdown end************ */
 
 .nav_icon {
     font-size: 3.5rem;
